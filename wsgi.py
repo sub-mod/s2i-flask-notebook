@@ -1,3 +1,6 @@
+# If a file named wsgi.py is present in your repository, 
+# it will be used as the entry point to your application. 
+# This can be overridden with the environment variable APP_MODULE.
 import json
 from flask import Flask, jsonify, request
 from prediction import predict
